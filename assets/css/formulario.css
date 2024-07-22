@@ -1,0 +1,24 @@
+main {
+    padding: 30px;
+}
+
+p {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+button {
+    margin-top: 40px;
+}
+
+.divFormulario {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+#erroCpf {
+    display: block;
+    color: red;
+    margin-top: 10px;
+}
